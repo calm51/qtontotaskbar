@@ -1,0 +1,12 @@
+﻿#ifndef QTONTOTASKBAR_GLOBAL_H
+#define QTONTOTASKBAR_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(QTONTOTASKBAR_LIBRARY)
+#  define QTONTOTASKBAR_EXPORT Q_DECL_EXPORT
+#else
+#  define QTONTOTASKBAR_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // QTONTOTASKBAR_GLOBAL_H
